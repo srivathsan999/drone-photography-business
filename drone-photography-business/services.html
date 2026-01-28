@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | SkyLens</title>
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-airplane-engines me-2 text-primary-custom"></i>SkyLens
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Home</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.html">Home Default</a></li>
+                            <li><a class="dropdown-item" href="home-2.html">Home Variant</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                </ul>
+                <div class="d-flex align-items-center ms-lg-4 gap-3">
+                    <button id="theme-toggle" class="btn btn-link nav-link p-0"><i class="bi bi-moon-fill"></i></button>
+                    <a href="login.html" class="nav-link p-0">Login</a>
+                    <a href="signup.html" class="btn btn-primary-custom">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="d-flex align-items-center position-relative" style="height: 400px; padding-top: 80px;">
+        <div class="position-absolute top-0 start-0 w-100 h-100"
+            style="background: url('assets/images/services/service-1.jpg') no-repeat center center/cover;">
+            <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(15, 23, 42, 0.7);"></div>
+        </div>
+        <div class="container position-relative z-1 text-center text-white fade-up">
+            <h1 class="display-4 fw-bold">Our Expertise</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center opacity-75">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
+                    <li class="breadcrumb-item active text-white" aria-current="page">Services</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Service Item 1 -->
+                <div class="col-lg-4 col-md-6 fade-up">
+                    <div class="card h-100 border-0 shadow-sm overflow-hidden scale-on-hover bg-surface">
+                        <div class="position-relative" style="height: 250px;">
+                            <img src="assets/images/services/service-1.jpg" class="w-100 h-100 object-fit-cover"
+                                alt="Real Estate">
+                            <div class="position-absolute bottom-0 start-0 p-3">
+                                <span class="badge bg-primary">Popular</span>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h4 class="card-title fw-bold mb-3">Real Estate Photography</h4>
+                            <p class="text-secondary mb-4">Elevate your listings with stunning 4K aerial video and
+                                high-res HDR photography that captures the full property scale.</p>
+                            <a href="service-details.html?service=real-estate" class="btn btn-outline-custom w-100">View
+                                Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Item 2 -->
+                <div class="col-lg-4 col-md-6 fade-up" style="transition-delay: 0.1s;">
+                    <div class="card h-100 border-0 shadow-sm overflow-hidden scale-on-hover bg-surface">
+                        <div class="position-relative" style="height: 250px;">
+                            <img src="assets/images/services/service-2.jpg" class="w-100 h-100 object-fit-cover"
+                                alt="Construction">
+                        </div>
+                        <div class="card-body p-4">
+                            <h4 class="card-title fw-bold mb-3">Construction Monitoring</h4>
+                            <p class="text-secondary mb-4">Regular site updates, orthomosaic mapping, and progress
+                                reports to keep stakeholders informed and projects on track.</p>
+                            <a href="service-details.html?service=construction"
+                                class="btn btn-outline-custom w-100">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Item 3 -->
+                <div class="col-lg-4 col-md-6 fade-up" style="transition-delay: 0.2s;">
+                    <div class="card h-100 border-0 shadow-sm overflow-hidden scale-on-hover bg-surface">
+                        <div class="position-relative" style="height: 250px;">
+                            <img src="assets/images/services/service-3.jpg" class="w-100 h-100 object-fit-cover"
+                                alt="Events">
+                        </div>
+                        <div class="card-body p-4">
+                            <h4 class="card-title fw-bold mb-3">Event Coverage</h4>
+                            <p class="text-secondary mb-4">Dynamic aerial angles for weddings, festivals, and sports
+                                events. Live streaming capabilities available.</p>
+                            <a href="service-details.html?service=events" class="btn btn-outline-custom w-100">View
+                                Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Item 4 -->
+                <div class="col-lg-4 col-md-6 fade-up">
+                    <div class="card h-100 border-0 shadow-sm overflow-hidden scale-on-hover bg-surface">
+                        <div class="position-relative" style="height: 250px;">
+                            <img src="assets/images/portfolio/portfolio-1.jpg" class="w-100 h-100 object-fit-cover"
+                                alt="Cinematography">
+                        </div>
+                        <div class="card-body p-4">
+                            <h4 class="card-title fw-bold mb-3">Film & TV Production</h4>
+                            <p class="text-secondary mb-4">Cinema-grade drones with raw capabilities for film
+                                production, commercials, and documentaries.</p>
+                            <a href="service-details.html?service=production" class="btn btn-outline-custom w-100">View
+                                Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Item 5 -->
+                <div class="col-lg-4 col-md-6 fade-up" style="transition-delay: 0.1s;">
+                    <div class="card h-100 border-0 shadow-sm overflow-hidden scale-on-hover bg-surface">
+                        <div class="position-relative" style="height: 250px;">
+                            <img src="assets/images/portfolio/portfolio-2.jpg" class="w-100 h-100 object-fit-cover"
+                                alt="Inspection">
+                        </div>
+                        <div class="card-body p-4">
+                            <h4 class="card-title fw-bold mb-3">Industrial Inspection</h4>
+                            <p class="text-secondary mb-4">Safe, high-resolution visual and thermal inspection for
+                                towers, bridges, roofs, and solar farms.</p>
+                            <a href="service-details.html?service=inspection" class="btn btn-outline-custom w-100">View
+                                Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Item 6 -->
+                <div class="col-lg-4 col-md-6 fade-up" style="transition-delay: 0.2s;">
+                    <div class="card h-100 border-0 shadow-sm overflow-hidden scale-on-hover bg-surface">
+                        <div class="position-relative" style="height: 250px;">
+                            <img src="assets/images/portfolio/portfolio-3.jpg" class="w-100 h-100 object-fit-cover"
+                                alt="Mapping">
+                        </div>
+                        <div class="card-body p-4">
+                            <h4 class="card-title fw-bold mb-3">Aerial Surveys & Mapping</h4>
+                            <p class="text-secondary mb-4">Precise 3D terrain modeling, volumetric measurements, and
+                                topographical surveys for land development.</p>
+                            <a href="service-details.html?service=mapping" class="btn btn-outline-custom w-100">View
+                                Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="section-padding bg-surface">
+        <div class="container">
+            <div class="text-center mb-5 fade-up">
+                <h6 class="text-accent text-uppercase fw-bold">How It Works</h6>
+                <h2 class="fw-bold">Our Process</h2>
+            </div>
+            <div class="row g-4 relative">
+                <!-- Step 1 -->
+                <div class="col-md-3 text-center fade-up">
+                    <div class="bg-white rounded-circle shadow-sm mx-auto d-flex align-items-center justify-content-center mb-4"
+                        style="width: 100px; height: 100px;">
+                        <span class="fw-bold fs-2 text-primary">01</span>
+                    </div>
+                    <h5>Consultation</h5>
+                    <p class="text-secondary small">We discuss your needs, flight zones, and creative vision.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="col-md-3 text-center fade-up" style="transition-delay: 0.1s;">
+                    <div class="bg-white rounded-circle shadow-sm mx-auto d-flex align-items-center justify-content-center mb-4"
+                        style="width: 100px; height: 100px;">
+                        <span class="fw-bold fs-2 text-primary">02</span>
+                    </div>
+                    <h5>Flight Planning</h5>
+                    <p class="text-secondary small">We handle FAA authorizations, weather checks, and logistics.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="col-md-3 text-center fade-up" style="transition-delay: 0.2s;">
+                    <div class="bg-white rounded-circle shadow-sm mx-auto d-flex align-items-center justify-content-center mb-4"
+                        style="width: 100px; height: 100px;">
+                        <span class="fw-bold fs-2 text-primary">03</span>
+                    </div>
+                    <h5>Production</h5>
+                    <p class="text-secondary small">Our expert pilots capture the footage with cinematic precision.</p>
+                </div>
+                <!-- Step 4 -->
+                <div class="col-md-3 text-center fade-up" style="transition-delay: 0.3s;">
+                    <div class="bg-white rounded-circle shadow-sm mx-auto d-flex align-items-center justify-content-center mb-4"
+                        style="width: 100px; height: 100px;">
+                        <span class="fw-bold fs-2 text-primary">04</span>
+                    </div>
+                    <h5>Delivery</h5>
+                    <p class="text-secondary small">Edited content delivered digitally within 24-48 hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <a href="index.html" class="navbar-brand text-primary mb-3 d-block fs-3">
+                        <i class="bi bi-airplane-engines me-2"></i>SkyLens
+                    </a>
+                    <p class="text-secondary mb-4">
+                        Premier drone photography and videography services. We capture the world from perspectives
+                        you've never seen before.
+                    </p>
+                    <div class="d-flex gap-3 social-icons">
+                        <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"><i
+                                class="bi bi-twitter"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"><i
+                                class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-6">
+                    <h5 class="fw-bold mb-3">Services</h5>
+                    <a href="service-details.html?service=real-estate" class="footer-link">Real Estate</a>
+                    <a href="service-details.html?service=construction" class="footer-link">Construction</a>
+                    <a href="service-details.html?service=events" class="footer-link">Events</a>
+                    <a href="service-details.html?service=inspection" class="footer-link">Inspections</a>
+                </div>
+
+                <div class="col-lg-2 col-6">
+                    <h5 class="fw-bold mb-3">Company</h5>
+                    <a href="about.html" class="footer-link">About Us</a>
+                    <a href="portfolio.html" class="footer-link">Portfolio</a>
+                    <a href="blog.html" class="footer-link">Blog</a>
+                    <a href="contact.html" class="footer-link">Contact</a>
+                </div>
+
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">Newsletter</h5>
+                    <p class="text-secondary small mb-3">Subscribe to get the latest updates and offers.</p>
+                    <form action="#" class="d-flex gap-2">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                        <button type="submit" class="btn btn-primary-custom">Go</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="border-top mt-5 pt-4 text-center text-secondary small">
+                <p>&copy; 2026 SkyLens Drone Photography. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="assets/js/theme-toggle.js"></script>
+    <script src="assets/js/animations.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

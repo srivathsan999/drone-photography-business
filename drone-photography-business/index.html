@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyLens | Professional Drone Photography & Videography</title>
+    <meta name="description"
+        content="Premium aerial photography and videography services for real estate, construction, events, and corporate needs. Cinematic quality delivered professionally.">
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-airplane-engines me-2 text-primary-custom"></i>SkyLens
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.html">Home Default</a></li>
+                            <li><a class="dropdown-item" href="home-2.html">Home Variant</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                </ul>
+                <div class="d-flex align-items-center ms-lg-4 gap-3">
+                    <button id="theme-toggle" class="btn btn-link nav-link p-0" aria-label="Toggle theme">
+                        <i class="bi bi-moon-fill"></i>
+                    </button>
+                    <a href="login.html" class="nav-link p-0">Login</a>
+                    <a href="signup.html" class="btn btn-primary-custom">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="position-relative d-flex align-items-center" style="min-height: 100vh; overflow: hidden;">
+        <!-- Background Image -->
+        <div class="position-absolute top-0 start-0 w-100 h-100 hero-image"
+            style="background: url('assets/images/hero/hero-1.jpg') no-repeat center center/cover; z-index: -1;">
+            <div class="position-absolute top-0 start-0 w-100 h-100"
+                style="background: linear-gradient(to bottom, rgba(15, 23, 42, 0.4), rgba(15, 23, 42, 0.1));"></div>
+        </div>
+
+        <div class="container position-relative z-1">
+            <div class="row align-items-center">
+                <div class="col-lg-7 text-white fade-up">
+                    <span
+                        class="d-inline-block py-1 px-3 rounded-pill bg-white text-primary fw-bold mb-3 small shadow-sm">
+                        <i class="bi bi-camera-fill me-1"></i> #1 Drone Agency
+                    </span>
+                    <h1 class="display-3 fw-bold mb-4">Capturing The World <br> <span class="text-primary-custom">From
+                            Above</span></h1>
+                    <p class="lead mb-5 text-white-50" style="max-width: 600px;">
+                        Professional aerial photography and videography for real estate, construction, and events. We
+                        bring a new perspective to your vision.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <a href="portfolio.html" class="btn btn-primary-custom btn-lg">View Portfolio</a>
+                        <a href="contact.html" class="btn btn-light btn-lg">Get a Quote</a>
+                    </div>
+                </div>
+                <!-- Glassmorphism Card (Hero Overlay) -->
+                <div class="col-lg-4 offset-lg-1 mt-5 mt-lg-0 fade-up" style="animation-delay: 0.2s;">
+                    <div class="glass-card text-white">
+                        <h4 class="mb-3">Why Choose Us?</h4>
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="bi bi-check-circle-fill text-accent me-3 fs-4"></i>
+                            <div>
+                                <h6 class="mb-0">4K/8K Resolution</h6>
+                                <small class="text-white-50">Crystal clear details</small>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="bi bi-check-circle-fill text-accent me-3 fs-4"></i>
+                            <div>
+                                <h6 class="mb-0">Licensed Pilots</h6>
+                                <small class="text-white-50">FAA Certified & Insured</small>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-0">
+                            <i class="bi bi-check-circle-fill text-accent me-3 fs-4"></i>
+                            <div>
+                                <h6 class="mb-0">Fast Turnaround</h6>
+                                <small class="text-white-50">Content within 24 hours</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Trust Section -->
+    <section class="py-5 bg-surface">
+        <div class="container">
+            <div class="row text-center mb-5 fade-up">
+                <div class="col-12">
+                    <p class="text-secondary mb-2 text-uppercase fw-bold tracking-wider">Trusted by industry leaders</p>
+                </div>
+            </div>
+            <!-- Client Logos Placeholder -->
+            <div class="row justify-content-center align-items-center opacity-50 grayscale-logos fade-up">
+                <div class="col-6 col-md-2 text-center mb-4">
+                    <h5 class="fw-bold text-secondary">REALESTATE<span class="text-primary">PRO</span></h5>
+                </div>
+                <div class="col-6 col-md-2 text-center mb-4">
+                    <h5 class="fw-bold text-secondary">BUILD<span class="text-accent">CORP</span></h5>
+                </div>
+                <div class="col-6 col-md-2 text-center mb-4">
+                    <h5 class="fw-bold text-secondary">EVENT<span class="text-primary">HORIZON</span></h5>
+                </div>
+                <div class="col-6 col-md-2 text-center mb-4">
+                    <h5 class="fw-bold text-secondary">URBAN<span class="text-accent">PLAN</span></h5>
+                </div>
+                <div class="col-6 col-md-2 text-center mb-4">
+                    <h5 class="fw-bold text-secondary">TRAVEL<span class="text-primary">LENS</span></h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Highlight Section -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row justify-content-between align-items-end mb-5 fade-up">
+                <div class="col-lg-6">
+                    <h6 class="text-primary-custom text-uppercase fw-bold mb-2">Our Capabilities</h6>
+                    <h2 class="display-5 fw-bold">Solutions for Every Industry</h2>
+                </div>
+                <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+                    <a href="services.html" class="btn btn-outline-custom">View All Services <i
+                            class="bi bi-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Service 1 -->
+                <div class="col-md-4 fade-up">
+                    <div class="card h-100 border-0 shadow-sm overflow-hidden scale-on-hover bg-surface">
+                        <div class="position-relative" style="height: 240px;">
+                            <img src="assets/images/services/service-1.jpg" alt="Real Estate"
+                                class="w-100 h-100 object-fit-cover">
+                            <div class="position-absolute bottom-0 start-0 p-3 w-100"
+                                style="background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);">
+                                <h4 class="text-white mb-0">Real Estate</h4>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <p class="text-secondary mb-3">Showcase properties with stunning aerial views. Perfect for
+                                listings, large estates, and commercial properties.</p>
+                            <a href="service-details.html?service=real-estate"
+                                class="text-primary fw-bold text-decoration-none">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="col-md-4 fade-up" style="transition-delay: 0.1s;">
+                    <div class="card h-100 border-0 shadow-sm overflow-hidden scale-on-hover bg-surface">
+                        <div class="position-relative" style="height: 240px;">
+                            <img src="assets/images/services/service-2.jpg" alt="Construction"
+                                class="w-100 h-100 object-fit-cover">
+                            <div class="position-absolute bottom-0 start-0 p-3 w-100"
+                                style="background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);">
+                                <h4 class="text-white mb-0">Construction</h4>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <p class="text-secondary mb-3">Monitor progress, inspect difficult areas, and create
+                                marketing materials for your development projects.</p>
+                            <a href="service-details.html?service=construction"
+                                class="text-primary fw-bold text-decoration-none">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="col-md-4 fade-up" style="transition-delay: 0.2s;">
+                    <div class="card h-100 border-0 shadow-sm overflow-hidden scale-on-hover bg-surface">
+                        <div class="position-relative" style="height: 240px;">
+                            <img src="assets/images/services/service-3.jpg" alt="Events"
+                                class="w-100 h-100 object-fit-cover">
+                            <div class="position-absolute bottom-0 start-0 p-3 w-100"
+                                style="background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);">
+                                <h4 class="text-white mb-0">Events</h4>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <p class="text-secondary mb-3">Capture the scale and energy of festivals, weddings, and
+                                corporate gatherings from a unique angle.</p>
+                            <a href="service-details.html?service=events"
+                                class="text-primary fw-bold text-decoration-none">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Portfolio -->
+    <section class="section-padding bg-surface position-relative">
+        <div class="container position-relative z-1">
+            <div class="text-center mb-5 fade-up">
+                <h6 class="text-primary-custom text-uppercase fw-bold mb-2">Our Masterpieces</h6>
+                <h2 class="display-5 fw-bold">Featured Projects</h2>
+            </div>
+
+            <div class="row g-3">
+                <div class="col-lg-8 fade-up">
+                    <a href="portfolio.html" class="d-block position-relative overflow-hidden rounded-4 scale-on-hover"
+                        style="height: 400px;">
+                        <img src="assets/images/portfolio/portfolio-1.jpg" alt="Cityscape"
+                            class="w-100 h-100 object-fit-cover" loading="lazy" width="800" height="400">
+                        <div
+                            class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-end p-4 portfolio-overlay">
+                            <div>
+                                <h4 class="text-white mb-1">Metropolitan Sunset</h4>
+                                <span class="text-accent">Urban Photography</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 fade-up">
+                    <a href="portfolio.html"
+                        class="d-block position-relative overflow-hidden rounded-4 scale-on-hover mb-3"
+                        style="height: 192px;">
+                        <img src="assets/images/portfolio/portfolio-2.jpg" alt="Nature"
+                            class="w-100 h-100 object-fit-cover" loading="lazy" width="400" height="200">
+                        <div
+                            class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-end p-3 portfolio-overlay">
+                            <div>
+                                <h6 class="text-white mb-0">Mountain Range</h6>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="portfolio.html" class="d-block position-relative overflow-hidden rounded-4 scale-on-hover"
+                        style="height: 192px;">
+                        <img src="assets/images/portfolio/portfolio-3.jpg" alt="Ocean"
+                            class="w-100 h-100 object-fit-cover" loading="lazy" width="400" height="200">
+                        <div
+                            class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-end p-3 portfolio-overlay">
+                            <div>
+                                <h6 class="text-white mb-0">Aerial Coastline</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="text-center mt-5 fade-up">
+                <a href="portfolio.html" class="btn btn-outline-custom btn-lg px-5">View Full Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="section-padding bg-surface">
+        <div class="container">
+            <div class="row g-4 text-center">
+                <div class="col-md-3 col-6 fade-up">
+                    <div class="p-4">
+                        <i class="bi bi-rocket-takeoff display-5 text-primary mb-3 d-block"></i>
+                        <h2 class="fw-bold mb-1">1,200+</h2>
+                        <p class="text-secondary text-uppercase small fw-bold">Successful Flights</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 fade-up" style="transition-delay: 0.1s;">
+                    <div class="p-4">
+                        <i class="bi bi-people display-5 text-primary mb-3 d-block"></i>
+                        <h2 class="fw-bold mb-1">450+</h2>
+                        <p class="text-secondary text-uppercase small fw-bold">Happy Clients</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 fade-up" style="transition-delay: 0.2s;">
+                    <div class="p-4">
+                        <i class="bi bi-hdd-network display-5 text-primary mb-3 d-block"></i>
+                        <h2 class="fw-bold mb-1">85 TB</h2>
+                        <p class="text-secondary text-uppercase small fw-bold">Media Captured</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 fade-up" style="transition-delay: 0.3s;">
+                    <div class="p-4">
+                        <i class="bi bi-shield-check display-5 text-primary mb-3 d-block"></i>
+                        <h2 class="fw-bold mb-1">100%</h2>
+                        <p class="text-secondary text-uppercase small fw-bold">Safety Record</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5 fade-up">
+                <h6 class="text-primary-custom text-uppercase fw-bold mb-2">Social Proof</h6>
+                <h2 class="display-5 fw-bold">What Our Clients Say</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 fade-up">
+                    <div class="card h-100 border-0 shadow-sm p-4 bg-surface rounded-4">
+                        <div class="mb-3 text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="text-secondary fst-italic mb-4">"The aerial shots of our new luxury development were
+                            breathtaking. SkyLens helped us sell 40% of units before construction was even finished."
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <div class="bg-primary rounded-circle text-white d-flex align-items-center justify-content-center fw-bold me-3"
+                                style="width: 50px; height: 50px;">MW</div>
+                            <div>
+                                <h6 class="mb-0 fw-bold">Marcus White</h6>
+                                <small class="text-secondary">Director, White Properties</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 fade-up" style="transition-delay: 0.1s;">
+                    <div class="card h-100 border-0 shadow-sm p-4 bg-surface rounded-4">
+                        <div class="mb-3 text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="text-secondary fst-italic mb-4">"We've used several drone companies for site
+                            monitoring, but SkyLens's 3D mapping data is on another level of precision. Highly
+                            recommended."</p>
+                        <div class="d-flex align-items-center">
+                            <div class="bg-accent rounded-circle text-white d-flex align-items-center justify-content-center fw-bold me-3"
+                                style="width: 50px; height: 50px;">SL</div>
+                            <div>
+                                <h6 class="mb-0 fw-bold">Sarah Lewis</h6>
+                                <small class="text-secondary">Project Lead, BuildCorp</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 fade-up" style="transition-delay: 0.2s;">
+                    <div class="card h-100 border-0 shadow-sm p-4 bg-surface rounded-4">
+                        <div class="mb-3 text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="text-secondary fst-italic mb-4">"Their live event coverage was seamless. The angles
+                            they captured during the marathon gave our broadcast a professional cinematic feel."</p>
+                        <div class="d-flex align-items-center">
+                            <div class="bg-primary rounded-circle text-white d-flex align-items-center justify-content-center fw-bold me-3"
+                                style="width: 50px; height: 50px;">JD</div>
+                            <div>
+                                <h6 class="mb-0 fw-bold">James Donovan</h6>
+                                <small class="text-secondary">Head of Media, City Events</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="glass-card text-center bg-primary text-white position-relative overflow-hidden p-5 rounded-5 border-0 shadow-lg fade-up"
+                style="background: linear-gradient(135deg, var(--color-primary) 0%, #3b82f6 100%);">
+                <!-- Decorative Circle -->
+                <div class="position-absolute top-0 end-0 bg-white opacity-10 rounded-circle"
+                    style="width: 300px; height: 300px; transform: translate(30%, -30%);"></div>
+
+                <div class="position-relative z-1">
+                    <h2 class="display-5 fw-bold mb-3 text-white">Ready to Fly?</h2>
+                    <p class="lead mb-4 opacity-90">Book a consultation today and let's elevate your visual content.</p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="contact.html" class="btn btn-light btn-lg text-primary fw-bold">Start a Project</a>
+                        <a href="pricing.html" class="btn btn-outline-light btn-lg">View Pricing</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <a href="index.html" class="navbar-brand text-primary mb-3 d-block fs-3">
+                        <i class="bi bi-airplane-engines me-2"></i>SkyLens
+                    </a>
+                    <p class="text-secondary mb-4">
+                        Premier drone photography and videography services. We capture the world from perspectives
+                        you've never seen before.
+                    </p>
+                    <div class="d-flex gap-3 social-icons">
+                        <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"><i
+                                class="bi bi-twitter"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"><i
+                                class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-6">
+                    <h5 class="fw-bold mb-3">Services</h5>
+                    <a href="service-details.html?service=real-estate" class="footer-link">Real Estate</a>
+                    <a href="service-details.html?service=construction" class="footer-link">Construction</a>
+                    <a href="service-details.html?service=events" class="footer-link">Events</a>
+                    <a href="service-details.html?service=inspection" class="footer-link">Inspections</a>
+                </div>
+
+                <div class="col-lg-2 col-6">
+                    <h5 class="fw-bold mb-3">Company</h5>
+                    <a href="about.html" class="footer-link">About Us</a>
+                    <a href="portfolio.html" class="footer-link">Portfolio</a>
+                    <a href="blog.html" class="footer-link">Blog</a>
+                    <a href="contact.html" class="footer-link">Contact</a>
+                </div>
+
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">Newsletter</h5>
+                    <p class="text-secondary small mb-3">Subscribe to get the latest updates and offers.</p>
+                    <form action="#" class="d-flex gap-2">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                        <button type="submit" class="btn btn-primary-custom">Go</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="border-top mt-5 pt-4 text-center text-secondary small">
+                <p>&copy; 2026 SkyLens Drone Photography. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="assets/js/theme-toggle.js"></script>
+    <script src="assets/js/animations.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

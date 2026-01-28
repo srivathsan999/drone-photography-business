@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Variant | SkyLens</title>
+    <meta name="description"
+        content="Explore SkyLens aerial services. Modern drone solutions for inspection, surveying, and creative visuals.">
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-airplane-engines me-2 text-primary-custom"></i>SkyLens
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.html">Home Default</a></li>
+                            <li><a class="dropdown-item" href="home-2.html">Home Variant</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                </ul>
+                <div class="d-flex align-items-center ms-lg-4 gap-3">
+                    <button id="theme-toggle" class="btn btn-link nav-link p-0" aria-label="Toggle theme">
+                        <i class="bi bi-moon-fill"></i>
+                    </button>
+                    <a href="login.html" class="nav-link p-0">Login</a>
+                    <a href="signup.html" class="btn btn-primary-custom">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section Variant (Center View) -->
+    <section class="position-relative d-flex align-items-center justify-content-center text-center"
+        style="min-height: 100vh; overflow: hidden;">
+        <div class="position-absolute top-0 start-0 w-100 h-100 hero-image"
+            style="background: url('assets/images/hero/hero-2.jpg') no-repeat center center/cover; z-index: -1;">
+            <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.4);"></div>
+        </div>
+
+        <div class="container z-1 text-white">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 fade-up">
+                    <h5 class="text-accent text-uppercase letter-spacing-2 mb-4 fw-bold">Elevate Your Vision</h5>
+                    <h1 class="display-2 fw-bold mb-4">Aerial Excellence <br> Without Limits</h1>
+                    <p class="lead mb-5 text-white-50 mx-auto" style="max-width: 700px;">
+                        We combine cutting-edge drone technology with cinematic storytelling to create breathtaking
+                        visuals for your business.
+                    </p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="services.html" class="btn btn-primary-custom btn-lg rounded-pill px-5">Explore
+                            Services</a>
+                        <a href="portfolio.html" class="btn btn-outline-light btn-lg rounded-pill px-5">View Gallery</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Floating Highlights -->
+            <div class="row justify-content-center mt-5 pt-5 fade-up" style="transition-delay: 0.2s;">
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="glass-card p-3 rounded-4">
+                        <h2 class="fw-bold mb-0">500+</h2>
+                        <small class="text-white-50">Projects Completed</small>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="glass-card p-3 rounded-4">
+                        <h2 class="fw-bold mb-0">98%</h2>
+                        <small class="text-white-50">Client Satisfaction</small>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="glass-card p-3 rounded-4">
+                        <h2 class="fw-bold mb-0">4K</h2>
+                        <small class="text-white-50">Ultra HD Quality</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Split Section -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 fade-up">
+                    <div class="position-relative rounded-4 overflow-hidden shadow-lg">
+                        <img src="assets/images/services/service-2.jpg" class="img-fluid" alt="Drone Inspection">
+                        <div class="position-absolute bottom-0 start-0 bg-white p-4 m-4 rounded-3 shadow d-none d-md-block"
+                            style="max-width: 250px;">
+                            <h5 class="fw-bold mb-1">Precision</h5>
+                            <p class="small text-secondary mb-0">GPS-guided flight paths for accurate data accumulation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 fade-up">
+                    <h6 class="text-primary-custom fw-bold text-uppercase mb-2">Technical Expertise</h6>
+                    <h2 class="display-6 fw-bold mb-4">Beyond Just Photography</h2>
+                    <p class="text-secondary mb-4">
+                        While we excel at capturing beauty, our drones are also industrial tools. We provide thermal
+                        imaging, 3D mapping, and structural inspections that save you time and reduce risk.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li class="d-flex align-items-start mb-3">
+                            <i class="bi bi-check-circle-fill text-primary mt-1 me-3"></i>
+                            <div>
+                                <strong>Photogrammetry</strong>
+                                <p class="small text-secondary mb-0">Accurate 3D models of terrain and structures.</p>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start mb-3">
+                            <i class="bi bi-check-circle-fill text-primary mt-1 me-3"></i>
+                            <div>
+                                <strong>Thermal Inspections</strong>
+                                <p class="small text-secondary mb-0">Identify heat leaks and solar panel efficiency.</p>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start mb-0">
+                            <i class="bi bi-check-circle-fill text-primary mt-1 me-3"></i>
+                            <div>
+                                <strong>Progress Monitoring</strong>
+                                <p class="small text-secondary mb-0">Regular site updates for construction management.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="about.html" class="btn btn-outline-custom mt-4">More About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Simple Grid Services -->
+    <section class="section-padding bg-surface">
+        <div class="container">
+            <div class="text-center mb-5 fade-up">
+                <h2 class="fw-bold">Our Core Services</h2>
+                <p class="text-secondary">Tailored solutions for your specific needs</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 fade-up">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100 text-center hover-lift transition-fast">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-primary-subtle text-primary rounded-circle mb-4"
+                            style="width: 60px; height: 60px;">
+                            <i class="bi bi-camera-video fs-4"></i>
+                        </div>
+                        <h5 class="fw-bold">Cinematography</h5>
+                        <p class="small text-secondary mb-0">High-end video for commercials and film.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 fade-up" style="transition-delay: 0.1s;">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100 text-center hover-lift transition-fast">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-warning-subtle text-accent rounded-circle mb-4"
+                            style="width: 60px; height: 60px;">
+                            <i class="bi bi-houses fs-4"></i>
+                        </div>
+                        <h5 class="fw-bold">Real Estate</h5>
+                        <p class="small text-secondary mb-0">Sell properties faster with aerial views.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 fade-up" style="transition-delay: 0.2s;">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100 text-center hover-lift transition-fast">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-info-subtle text-info rounded-circle mb-4"
+                            style="width: 60px; height: 60px;">
+                            <i class="bi bi-building-gear fs-4"></i>
+                        </div>
+                        <h5 class="fw-bold">Inspections</h5>
+                        <p class="small text-secondary mb-0">Safe and detail-oriented asset monitoring.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 fade-up" style="transition-delay: 0.3s;">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100 text-center hover-lift transition-fast">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-success-subtle text-success rounded-circle mb-4"
+                            style="width: 60px; height: 60px;">
+                            <i class="bi bi-map fs-4"></i>
+                        </div>
+                        <h5 class="fw-bold">Mapping</h5>
+                        <p class="small text-secondary mb-0">Orthomosaics and topographical surveys.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Process Section (Horizontal Steps) -->
+    <section class="section-padding bg-black text-white">
+        <div class="container">
+            <div class="text-center mb-5 fade-up">
+                <h6 class="text-accent text-uppercase fw-bold mb-2">Our Workflow</h6>
+                <h2 class="display-5 fw-bold">How We Achieve Perfection</h2>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-3 col-md-6 fade-up">
+                    <div class="text-center px-3">
+                        <div class="mb-4 position-relative">
+                            <div class="bg-primary rounded-circle mx-auto d-flex align-items-center justify-content-center shadow"
+                                style="width: 80px; height: 80px; font-size: 2rem; font-weight: 700;">1</div>
+                        </div>
+                        <h5 class="fw-bold">Creative Brief</h5>
+                        <p class="text-white-50 small">We deep dive into your vision and project goals to ensure every
+                            shot counts.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 fade-up" style="transition-delay: 0.1s;">
+                    <div class="text-center px-3">
+                        <div class="mb-4 position-relative">
+                            <div class="bg-primary rounded-circle mx-auto d-flex align-items-center justify-content-center shadow"
+                                style="width: 80px; height: 80px; font-size: 2rem; font-weight: 700;">2</div>
+                        </div>
+                        <h5 class="fw-bold">Tech Strategy</h5>
+                        <p class="text-white-50 small">Selecting the right drone and flight path for optimal data and
+                            cinematic quality.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 fade-up" style="transition-delay: 0.2s;">
+                    <div class="text-center px-3">
+                        <div class="mb-4 position-relative">
+                            <div class="bg-primary rounded-circle mx-auto d-flex align-items-center justify-content-center shadow"
+                                style="width: 80px; height: 80px; font-size: 2rem; font-weight: 700;">3</div>
+                        </div>
+                        <h5 class="fw-bold">Precise Action</h5>
+                        <p class="text-white-50 small">Our certified pilots execute the flight with unmatched precision
+                            and safety.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 fade-up" style="transition-delay: 0.3s;">
+                    <div class="text-center px-3">
+                        <div class="mb-4">
+                            <div class="bg-primary rounded-circle mx-auto d-flex align-items-center justify-content-center shadow"
+                                style="width: 80px; height: 80px; font-size: 2rem; font-weight: 700;">4</div>
+                        </div>
+                        <h5 class="fw-bold">Digital Mastery</h5>
+                        <p class="text-white-50 small">Final assets delivered in full 4K, color-graded and ready for
+                            professional use.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Preview Section -->
+    <section class="section-padding bg-surface">
+        <div class="container">
+            <div class="text-center mb-5 fade-up">
+                <h6 class="text-primary-custom text-uppercase fw-bold mb-2">Investment Plans</h6>
+                <h2 class="display-5 fw-bold">Simple, Transparent Pricing</h2>
+            </div>
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-4 fade-up">
+                    <div class="card p-5 h-100 bg-white border-0 shadow-sm rounded-4">
+                        <h5 class="text-secondary fw-bold">Standard</h5>
+                        <h2 class="display-4 fw-bold text-primary mb-3">$299</h2>
+                        <ul class="list-unstyled mb-4 text-secondary">
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> 10 HDR Photos
+                            </li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> 30s Video Edit
+                            </li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> 24h Turnaround
+                            </li>
+                        </ul>
+                        <a href="pricing.html" class="btn btn-outline-custom w-100">Get Started</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 fade-up" style="transition-delay: 0.1s;">
+                    <div
+                        class="card p-5 h-100 border border-primary bg-white shadow-lg scale-on-hover rounded-4 position-relative">
+                        <span
+                            class="badge bg-primary rounded-pill px-3 py-2 mb-3 position-absolute top-0 start-50 translate-middle">Best
+                            Seller</span>
+                        <h5 class="text-secondary fw-bold mt-2">Professional</h5>
+                        <h2 class="display-4 fw-bold text-primary mb-3">$599</h2>
+                        <ul class="list-unstyled mb-4 text-secondary">
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> 25 HDR Photos
+                            </li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> 2 min 4K Edit
+                            </li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Neighborhood
+                                Intro</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Music License
+                            </li>
+                        </ul>
+                        <a href="pricing.html" class="btn btn-primary-custom w-100 btn-lg">Choose Pro</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 fade-up" style="transition-delay: 0.2s;">
+                    <div class="card p-5 h-100 bg-white border-0 shadow-sm rounded-4">
+                        <h5 class="text-secondary fw-bold">Enterprise</h5>
+                        <h2 class="display-4 fw-bold text-primary mb-3">Custom</h2>
+                        <ul class="list-unstyled mb-4 text-secondary">
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Unlimited Assets
+                            </li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Full Day Coverage
+                            </li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> 3D Site Mapping
+                            </li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-outline-custom w-100">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section Grid -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-5 fade-up">
+                    <h6 class="text-primary-custom text-uppercase fw-bold mb-2">Got Questions?</h6>
+                    <h2 class="display-5 fw-bold mb-4">Frequently Asked Questions</h2>
+                    <p class="text-secondary mb-4">Everything you need to know about our drone services. If you have
+                        more questions, don't hesitate to reach out to our team.</p>
+                    <a href="contact.html" class="btn btn-link text-primary p-0 fw-bold fs-5">Ask a unique question <i
+                            class="bi bi-arrow-right ms-1"></i></a>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-6 fade-up">
+                            <h5 class="fw-bold mb-3">What is the travel radius?</h5>
+                            <p class="text-secondary small">We cover a 50-mile radius from the city center without
+                                travel fees. For interstate projects, a flat travel fee applies.</p>
+                        </div>
+                        <div class="col-md-6 fade-up" style="transition-delay: 0.1s;">
+                            <h5 class="fw-bold mb-3">What if the weather is bad?</h5>
+                            <p class="text-secondary small">Safety is our priority. If it rains or winds exceed 20mph,
+                                we reschedule at your earliest convenience at no cost.</p>
+                        </div>
+                        <div class="col-md-6 fade-up" style="transition-delay: 0.2s;">
+                            <h5 class="fw-bold mb-3">Are you FAA certified?</h5>
+                            <p class="text-secondary small">Yes, all our pilots are FAA Part 107 certified and we hold a
+                                $2M liability insurance policy for every flight.</p>
+                        </div>
+                        <div class="col-md-6 fade-up" style="transition-delay: 0.3s;">
+                            <h5 class="fw-bold mb-3">How fast is delivery?</h5>
+                            <p class="text-secondary small">Photos are usually delivered within 24 hours. Fully edited
+                                4K cinematic videos take between 48-72 hours.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <a href="index.html" class="navbar-brand text-primary mb-3 d-block fs-3">
+                        <i class="bi bi-airplane-engines me-2"></i>SkyLens
+                    </a>
+                    <p class="text-secondary mb-4">
+                        Premier drone photography and videography services. We capture the world from perspectives
+                        you've never seen before.
+                    </p>
+                    <div class="d-flex gap-3 social-icons">
+                        <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"><i
+                                class="bi bi-twitter"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"><i
+                                class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-6">
+                    <h5 class="fw-bold mb-3">Services</h5>
+                    <a href="service-details.html?service=real-estate" class="footer-link">Real Estate</a>
+                    <a href="service-details.html?service=construction" class="footer-link">Construction</a>
+                    <a href="service-details.html?service=events" class="footer-link">Events</a>
+                    <a href="service-details.html?service=inspection" class="footer-link">Inspections</a>
+                </div>
+
+                <div class="col-lg-2 col-6">
+                    <h5 class="fw-bold mb-3">Company</h5>
+                    <a href="about.html" class="footer-link">About Us</a>
+                    <a href="portfolio.html" class="footer-link">Portfolio</a>
+                    <a href="blog.html" class="footer-link">Blog</a>
+                    <a href="contact.html" class="footer-link">Contact</a>
+                </div>
+
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">Newsletter</h5>
+                    <p class="text-secondary small mb-3">Subscribe to get the latest updates and offers.</p>
+                    <form action="#" class="d-flex gap-2">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                        <button type="submit" class="btn btn-primary-custom">Go</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="border-top mt-5 pt-4 text-center text-secondary small">
+                <p>&copy; 2026 SkyLens Drone Photography. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="assets/js/theme-toggle.js"></script>
+    <script src="assets/js/animations.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Details | SkyLens</title>
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i
+                    class="bi bi-airplane-engines me-2 text-primary-custom"></i>SkyLens</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Home</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.html">Home Default</a></li>
+                            <li><a class="dropdown-item" href="home-2.html">Home Variant</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                </ul>
+                <div class="d-flex align-items-center ms-lg-4 gap-3">
+                    <button id="theme-toggle" class="btn btn-link nav-link p-0"><i class="bi bi-moon-fill"></i></button>
+                    <a href="login.html" class="nav-link p-0">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Top Banner -->
+    <div class="w-100 position-relative" style="height: 400px; margin-top: 70px;">
+        <img src="assets/images/portfolio/portfolio-1.jpg" class="w-100 h-100 object-fit-cover" alt="Cover">
+        <div class="position-absolute top-0 start-0 w-100 h-100"
+            style="background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.7));"></div>
+        <div class="position-absolute bottom-0 start-0 w-100 p-5 text-white container">
+            <span class="badge bg-primary mb-2">Technology</span>
+            <h1 class="display-4 fw-bold">The Future of Drone Mapping in Construction</h1>
+            <div class="d-flex align-items-center gap-3 mt-3">
+                <div class="bg-white rounded-circle d-flex align-items-center justify-content-center text-dark fw-bold"
+                    style="width: 40px; height: 40px;">JS</div>
+                <div>
+                    <p class="mb-0 fw-bold">John Smith</p>
+                    <small class="opacity-75">Oct 15, 2025 • 5 min read</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Article Content -->
+    <section class="section-padding bg-surface">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="lead text-secondary mb-5">
+                        Drones have rapidly evolved from hobbyist toys to essential industrial tools. In the
+                        construction sector, they are effectively replacing traditional surveying methods, offering
+                        faster, safer, and cheaper alternatives for site mapping and progress monitoring.
+                    </div>
+
+                    <h3 class="fw-bold mb-3">Efficiency at Scale</h3>
+                    <p class="text-secondary mb-4">
+                        Traditional surveying of a 50-acre site could take days. With a drone equipped with RTK
+                        (Real-Time Kinematic) positioning and high-resolution cameras, the same site can be mapped in
+                        under an hour. The resulting orthomosaics and 3D point clouds provide project managers with
+                        up-to-date topographical data they can rely on.
+                    </p>
+
+                    <img src="assets/images/services/service-2.jpg" class="w-100 rounded-4 my-4 shadow-sm"
+                        alt="Content Image">
+
+                    <h3 class="fw-bold mb-3">Safety First</h3>
+                    <p class="text-secondary mb-4">
+                        One of the biggest advantages is safety. Instead of sending personnel to climb stockpiles or
+                        navigate hazardous terrain to take measurements, a drone can capture volumetric data from the
+                        air. This significantly reduces the risk of on-site accidents.
+                    </p>
+
+                    <blockquote
+                        class="blockquote my-5 p-4 border-start border-4 border-primary bg-white rounded shadow-sm">
+                        <p class="mb-0 fst-italic">"The ability to track site changes day-by-day has completely
+                            transformed our project management workflow. We catch errors before they become expensive
+                            problems."</p>
+                        <footer class="blockquote-footer mt-2">Sarah Jenkins, Project Manager</footer>
+                    </blockquote>
+
+                    <h3 class="fw-bold mb-3">Looking Ahead</h3>
+                    <p class="text-secondary mb-5">
+                        As battery life improves and sensors become more sophisticated (like Lidar becoming more
+                        affordable), we can expect drones to become as common on construction sites as excavators. The
+                        integration of AI to automatically detect safety violations or structural defects from drone
+                        footage is the next frontier.
+                    </p>
+
+                    <hr class="my-5">
+
+                    <!-- Share -->
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h5 class="fw-bold mb-0">Share this article</h5>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-outline-secondary rounded-circle"><i
+                                    class="bi bi-twitter"></i></button>
+                            <button class="btn btn-outline-secondary rounded-circle"><i
+                                    class="bi bi-linkedin"></i></button>
+                            <button class="btn btn-outline-secondary rounded-circle"><i
+                                    class="bi bi-facebook"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <a href="index.html" class="navbar-brand text-primary mb-3 d-block fs-3">
+                        <i class="bi bi-airplane-engines me-2"></i>SkyLens
+                    </a>
+                    <p class="text-secondary mb-4">
+                        Premier drone photography and videography services. We capture the world from perspectives
+                        you've never seen before.
+                    </p>
+                    <div class="d-flex gap-3 social-icons">
+                        <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"><i
+                                class="bi bi-twitter"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"><i
+                                class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-6">
+                    <h5 class="fw-bold mb-3">Services</h5>
+                    <a href="service-details.html?service=real-estate" class="footer-link">Real Estate</a>
+                    <a href="service-details.html?service=construction" class="footer-link">Construction</a>
+                    <a href="service-details.html?service=events" class="footer-link">Events</a>
+                    <a href="service-details.html?service=inspection" class="footer-link">Inspections</a>
+                </div>
+
+                <div class="col-lg-2 col-6">
+                    <h5 class="fw-bold mb-3">Company</h5>
+                    <a href="about.html" class="footer-link">About Us</a>
+                    <a href="portfolio.html" class="footer-link">Portfolio</a>
+                    <a href="blog.html" class="footer-link">Blog</a>
+                    <a href="contact.html" class="footer-link">Contact</a>
+                </div>
+
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">Newsletter</h5>
+                    <p class="text-secondary small mb-3">Subscribe to get the latest updates and offers.</p>
+                    <form action="#" class="d-flex gap-2">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                        <button type="submit" class="btn btn-primary-custom">Go</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="border-top mt-5 pt-4 text-center text-secondary small">
+                <p>&copy; 2026 SkyLens Drone Photography. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/theme-toggle.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+/* Dark Mode Overrides */
+body.dark-mode {
+    --color-bg: #020617;
+    --color-surface: #0f172a;
+    /* Slightly lighter than bg for cards */
+    --color-text-primary: #F8FAFC;
+    --color-text-secondary: #CBD5E1;
+
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    /* Lower opacity for dark mode */
+    --glass-border: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .navbar {
+    background-color: rgba(2, 6, 23, 0.95);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode .nav-link {
+    color: #e2e8f0 !important;
+    /* Slate-200 */
+}
+
+body.dark-mode .nav-link:hover,
+body.dark-mode .nav-link.active {
+    color: var(--color-primary) !important;
+}
+
+body.dark-mode .bg-surface {
+    background-color: var(--color-surface);
+}
+
+body.dark-mode .form-control:not(.auth-card .form-control) {
+    background-color: #1e293b;
+    border-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+body.dark-mode .form-control::placeholder {
+    color: #94a3b8;
+}
+
+body.dark-mode footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
