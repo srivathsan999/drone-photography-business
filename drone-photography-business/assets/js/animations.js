@@ -2,32 +2,42 @@
 document.addEventListener('DOMContentLoaded', () => {
     gsap.registerPlugin(ScrollTrigger);
 
-    // Fade Up Elements
-    gsap.utils.toArray('.fade-up').forEach(element => {
-        gsap.to(element, {
-            scrollTrigger: {
-                trigger: element,
-                start: "top 85%",
-                toggleActions: "play none none reverse"
-            },
+    // Speed up initial load by reducing duration and using better easing
+    const defaultDuration = 0.6;
+    const fastEase = "power2.out";
+
+    // Batch Fade Up Elements (Triggers groups of elements together for smoother feel)
+    ScrollTrigger.batch(".fade-up", {
+        start: "top 90%", // Trigger slightly earlier
+        onEnter: batch => gsap.to(batch, {
             opacity: 1,
             y: 0,
-            duration: 0.8,
-            ease: "power3.out"
-        });
+            stagger: 0.15,
+            duration: defaultDuration,
+            ease: fastEase,
+            overwrite: true
+        }),
+        onEnterBack: batch => gsap.to(batch, {
+            opacity: 1,
+            y: 0,
+            stagger: 0.15,
+            duration: defaultDuration,
+            ease: fastEase,
+            overwrite: true
+        })
     });
 
-    // Navbar Entry
+    // Navbar Entry (Snappier)
     gsap.to('.nav-item', {
         opacity: 1,
         y: 0,
-        duration: 0.5,
-        stagger: 0.1,
+        duration: 0.4,
+        stagger: 0.05, // Faster stagger
         ease: "power2.out",
-        delay: 0.2
+        delay: 0.1
     });
 
-    // Hero Image Parallax (Subtle)
+    // Hero Image Parallax (Hardware accelerated)
     const heroImg = document.querySelector('.hero-image');
     if (heroImg) {
         gsap.to(heroImg, {
@@ -35,9 +45,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 trigger: 'body',
                 start: "top top",
                 end: "bottom top",
-                scrub: 1
+                scrub: true
             },
-            y: 100,
+            y: "15%", // Use percentage for better performance
+            force3D: true,
             ease: "none"
         });
     }

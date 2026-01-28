@@ -111,11 +111,23 @@ section {
     transition: all 0.3s ease;
 }
 
-.navbar-brand {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 1.5rem;
-    color: var(--color-text-primary);
+.navbar-brand,
+.brand-style {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 1.5rem !important;
+    color: var(--color-primary) !important;
+    display: flex !important;
+    align-items: center !important;
+    text-decoration: none !important;
+}
+
+.navbar-brand i,
+.brand-style i {
+    color: var(--color-primary) !important;
+    margin-right: 8px;
+    font-size: 1.2em;
+    /* Slightly larger icon */
 }
 
 

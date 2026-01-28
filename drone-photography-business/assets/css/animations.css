@@ -1,18 +1,19 @@
 /* Animations CSS (Helper classes for GSAP targets) */
-
 .fade-up {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(20px);
+    /* Reduced movement for snappier feel */
+    will-change: transform, opacity;
 }
 
 .scale-on-hover {
-    transition: transform 0.4s ease;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
     overflow: hidden;
     display: block;
 }
 
 .scale-on-hover img {
-    transition: transform 0.6s ease;
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .scale-on-hover:hover img {
@@ -21,5 +22,6 @@
 
 .nav-item {
     opacity: 0;
-    transform: translateY(-10px);
+    transform: translateY(-8px);
+    will-change: transform, opacity;
 }
