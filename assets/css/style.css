@@ -64,6 +64,14 @@ section {
     background-color: var(--color-surface);
 }
 
+.bg-primary-custom {
+    background-color: var(--color-primary) !important;
+}
+
+.bg-accent {
+    background-color: var(--color-accent) !important;
+}
+
 /* Hero Section Styles */
 .hero-text-shadow {
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
@@ -88,6 +96,28 @@ section {
 .hero-content small,
 .hero-content .text-white-50 {
     color: white !important;
+}
+
+.highlight-card {
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), background 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 20px;
+}
+
+.highlight-card:hover {
+    transform: translateY(-10px);
+    background: rgba(15, 23, 42, 0.8) !important;
+    border-color: var(--color-primary) !important;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.highlight-card i {
+    transition: transform 0.3s ease;
+    display: block;
+}
+
+.highlight-card:hover i {
+    transform: scale(1.2) rotate(5deg);
 }
 
 /* Pages */
@@ -312,6 +342,7 @@ footer {
 
 .social-icon-btn.twitter {
     background-color: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .social-icon-btn.linkedin {

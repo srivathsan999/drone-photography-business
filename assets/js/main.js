@@ -4,12 +4,14 @@ console.log("Main JS Loaded");
 // Since we use Bootstrap's standard collapser, we might add auto-close logic here.
 
 document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
-    link.addEventListener('click', () => {
+    link.addEventListener('click', (e) => {
+        // Do not close mobile menu if clicking a dropdown toggle
+        if (link.classList.contains('dropdown-toggle')) {
+            return;
+        }
+
         const navbarCollapse = document.querySelector('.navbar-collapse');
         if (navbarCollapse.classList.contains('show')) {
-            // Using Bootstrap 5 API would be ideal, but simple class remove works for logic
-            // new bootstrap.Collapse(navbarCollapse).hide();
-            // Let's rely on data-bs-toggle if possible, or simple JS:
             const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
             if (bsCollapse) bsCollapse.hide();
         }
